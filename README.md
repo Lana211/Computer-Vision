@@ -1,4 +1,3 @@
-# Computer-Vision
 # Vehicle Brand Detection, Tracking & Classification
 
 An end-to-end computer vision pipeline built with **Ultralytics YOLO** that:
@@ -71,7 +70,7 @@ cv2.VideoWriter — write annotated frame to output video
 ├── car_brand_capstone.ipynb   # Main notebook: training, evaluation, tracking, export
 ├── README.md
 ├── .gitignore
-└── results/                   # Output video, confusion matrix, and other evidence files
+└── output_tracked.mp4         # Sample annotated output video (detection + tracking + classification)
 ```
 
 ## How to Run
@@ -105,8 +104,8 @@ Open `car_brand_capstone.ipynb` and run all cells in order. It will:
 ### 3. Output produced by this project
 - Trained weights: `runs/classify/car_brand_cls/run1/weights/best.pt`
 - ONNX export: `runs/classify/car_brand_cls/run1/weights/best.onnx`
-- Annotated output video: `output_tracked_final.mp4`
-- Confusion matrix: `runs/classify/val/confusion_matrix.png`
+- Annotated output video: `output_tracked.mp4` (included in this repo)
+- Confusion matrix: generated inside the notebook during evaluation
 
 ## Results
 
@@ -126,7 +125,3 @@ SDAIA Academy on GitHub: https://github.com/SDAIAAcademy
 
 - [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
 - [Car Brand Classification Dataset](https://www.kaggle.com/datasets/ahmedelsany/car-brand-classification-dataset) by Ahmed Elsany (Kaggle)
-
-## Team Members
- Lama Alhamed, Aleen Alkhudir, Farah Alhamed, Lana almulhem, Rana Albarrak, Alanoud Alhudhaif
-

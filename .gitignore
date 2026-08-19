@@ -1,0 +1,16 @@
+runs/
+car_brand_cls/
+*.pt
+*.onnx
+data/
+*.zip
+kaggle.json
+*.kaggle/
+access_token
+*.mp4
+!results/*.mp4
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+.DS_Store

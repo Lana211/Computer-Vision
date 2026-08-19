@@ -42,7 +42,7 @@ score.
 ## Pipeline Architecture
 
 ```
-Video file (own recorded footage)
+Video file 
         │
         ▼
 cv2.VideoCapture — read frame by frame

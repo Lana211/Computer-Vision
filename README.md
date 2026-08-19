@@ -126,3 +126,7 @@ SDAIA Academy on GitHub: https://github.com/SDAIAAcademy
 
 - [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
 - [Car Brand Classification Dataset](https://www.kaggle.com/datasets/ahmedelsany/car-brand-classification-dataset) by Ahmed Elsany (Kaggle)
+
+## Team Members
+ Lama Alhamed, Aleen Alkhudir, Farah Alhamed, Lana almulhem, Rana Albarrak, Alanoud Alhudhaif
+
